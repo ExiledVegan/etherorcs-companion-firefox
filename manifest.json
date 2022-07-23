@@ -6,6 +6,12 @@
 
   "description": "Play EtherOrcs like a true orc champion.",
 
+  "homepage_url": "https://github.com/ExiledVegan/etherorcs-companion-firefox",
+
+  "permissions": [
+    "activeTab"
+  ],
+
   "icons": {
     "48": "icons/logo.svg",
     "96": "icons/logo.svg"
