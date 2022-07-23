@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "EtherOrcs Companion",
+  "version": "0.1",
+
+  "description": "Play EtherOrcs like a true orc champion.",
+
+  "icons": {
+    "48": "icons/logo.svg",
+    "96": "icons/logo.svg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://dungeons.etherorcs.com/*"],
+      "js": ["js/index.js"],
+      "css": ["css/index.css"]
+    }
+  ]
+
+}
