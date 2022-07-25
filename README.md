@@ -19,6 +19,6 @@ other parts of the website as well, such as the town and game terminal.</p>
 <p>1. Visit `https://dungeons.etherorcs.com/?start` and press `SELECT CHARACTERS`, note that every item has a number now</p>
 <p>2. Open `settings.js` of this extension</p>
 <p>3. Replace the `0` values with the according id/numbers, `id` = you characters #id `ar` = armor, `mh` = mainhand, `oh` = offhand</p>
-<p>4. Save your changes and reload the extension in `chrome://extensions/`</p>
+<p>4. Save your changes and reload the extension in `about:debugging#/runtime/this-firefox`</p>
 <p>5. Visit `https://dungeons.etherorcs.com/?start` and press `Use Loadout`</p>
 <p>6. Check if every character was equipped correctly</p>

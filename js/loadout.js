@@ -20,7 +20,7 @@ async function loadout() {
     });
 
     let cfg = cfg_loadout.solo;
-    if ($(".character-select-wrapper button[aria-pressed='true']").attr("value") === "party") {
+    if ($(".character-select-wrapper button[aria-pressed='true']").attr("value") == "party") {
         cfg = cfg_loadout.party;
     }
 
@@ -61,7 +61,7 @@ async function loadout() {
 $(document).ready(function () {
     $(document).on("click", ".charSelFilter a", function () {
         const filterRace = $(this).attr("id").replace("filter_", "");
-        if (filterRace === "all") {
+        if (filterRace == "all") {
             $(".character-selector .character").show();
         } else {
             $(".character-selector .character").hide();
@@ -90,10 +90,9 @@ $(document).ready(function () {
     if ($(".dungeon-crawler").length > 0) {
         $(document).on('DOMSubtreeModified', function () {
             let mapBtn = $(".character-select-wrapper .select-map-button");
-            let loadoutBtn = $("#loadout");
-            if (mapBtn.length > 0 && loadoutBtn.length < 1) {
+            if (mapBtn.length > 0 && $("#loadout").length < 1) {
                 mapBtn.after('<div id="loadout">Use Loadout</div>');
-                loadoutBtn.click(function () {
+                $("#loadout").click(function () {
                     $(this).hide();
                     loadout();
                 });
