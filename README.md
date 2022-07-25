@@ -8,3 +8,12 @@ other parts of the website as well, such as the town and game terminal.</p>
     <li>Fast/Instant loading of all the in-game animations</li>
     <li>Remove dungeon shadow effect for clarity and easier mapping</li>
 </ul>
+
+<hr>
+Installing
+
+In Firefox: Open the about:debugging page, click the This Firefox option, click the Load Temporary Add-on button, then select any file in your extension's directory.
+
+The extension now installs, and remains installed until you restart Firefox.
+
+Alternatively, you can run the extension from the command line using the web-ext tool.
