@@ -3,6 +3,13 @@
     background: none;
 }
 
+* {
+    animation-delay: 0s !important;
+    animation-duration: 0s !important;
+    transition-delay: 0s !important;
+    transition-duration: 0s !important;
+}
+
 .enemies .enemy .enemy-image.attacked {
     animation: attacked .1s;
     animation-delay: 0s;
