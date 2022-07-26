@@ -1,5 +1,6 @@
 <h2>EtherOrcs Companion - Firefox Extension</h2>
 <h3>Chrome Extension: https://github.com/blumentopf-eth/etherorcs-helper </h3>
+<h3>Updated fork: https://github.com/ExiledVegan/etherorcs-helper </h3>
 <hr>
 <p>The purpose of this project is to further improve the EtherOrcs experience with various tweaks and fixes.</p>
 <p>In the current stage all the improvements are aimed towards the dungeons subdomain. Future versions will aim to improve
